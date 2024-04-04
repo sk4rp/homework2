@@ -7,9 +7,15 @@
     margin: 0;
 }
 
+@font-face {
+    font-weight: 400;
+    font-family: 'Roboto';
+    src: url("fonts/Roboto/Roboto-Italic.ttf");
+}
+
 body {
-    height: 100%;
     font-size: 25px;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -42,4 +48,17 @@ footer > img {
     margin-top: 10px;
     width: 25%;
     height: 25%;
+}
+
+.animate {
+    animation: example-animation 1s ease-in-out;
+}
+
+@keyframes example-animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
