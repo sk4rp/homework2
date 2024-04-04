@@ -3,15 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя первая веб-страница</title>
+    <!-- Описал стилизацию в CSS файле -->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Web-page</title>
 </head>
 <body>
+    <!-- Не использовал БЭМ методологию -->
+
+    <!-- Стандартная шапка с ссылками -->
     <header>
         <a href="#">Главная</a>
-        <a href="pages/about.html">О нас</a>
-        <a href="pages/contacts.html">Контакты</a>
+        <a href="/pages/about.html">О нас</a>
+        <a href="/pages/contacts.html">Контакты</a>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <!-- Main блок с информацией о себе -->
+    <main>
+        <h1>Web-page</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis laborum, doloribus expedita aut illum accusamus voluptatibus impedit porro eum omnis voluptas doloremque ad, perspiciatis inventore illo. Nisi, repellendus fugiat?</p>
+
+        <hr>
+
+        <h2>Работаю backend разработчиком</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat modi accusantium incidunt obcaecati quia distinctio. Sunt id distinctio numquam corporis quisquam tempora quidem? Alias nulla blanditiis impedit porro sint perspiciatis.</p>
+
+        <hr>
+
+        <h3>Практикую базовые вещи</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vitae aspernatur, officia qui labore porro suscipit, assumenda veniam vel ipsam earum facere, sit aut quam exercitationem nihil accusamus fuga aperiam!</p>
+    </main>
+
+    <!-- Простой footer -->
+    <footer>
+        <!-- Добавил картинку через пути -->
+        <img src="/images/logoFirst.png" alt="Skillfactory">
+        <p>&copy;&nbsp;Skillfactory</p>
+    </footer>
+
+    <!-- Подключил js файл -->
+    <script src="/js/main.js"></script>
 </body>
 </html>
